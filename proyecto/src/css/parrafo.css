@@ -1,0 +1,15 @@
+textarea{
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 750px;
+    position: relative;
+    right: 10px;
+   
+}
+.txt{
+    position: relative;
+    left: 200px;
+}
