@@ -1,7 +1,0 @@
-.Bmas{
-    width: 200px;
-    transition: transform 0.3s ease-in-out
-}
-.Bmas:hover{
-    transform: scale(1.1)
-}
