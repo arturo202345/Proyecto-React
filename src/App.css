@@ -1,0 +1,165 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b0b7c4;
+}
+
+header {
+  background-color: #3498db ;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+footer {
+  background-color: #3498db ;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  padding: 20px;
+}
+
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #e8e7e2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-preview {
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  border: 5px solid #8d9bab ;
+  border-radius: 5px;
+  
+}
+
+.post-preview h2 {
+  margin: 0 0 10px;
+}
+
+.post-preview p {
+  margin: 0;
+}
+
+.crear-post {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #e8e7e2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crear-post form {
+  display: flex;
+  flex-direction: column;
+}
+
+.crear-post input,
+.crear-post textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.crear-post button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.crear-post button:hover {
+  background-color: #555;
+}
+
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #e8e7e2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h1 {
+  margin: 0 0 20px;
+}
+
+.blog-post p {
+  line-height: 1.6;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.comment-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #555;
+}
+
+.comment-list {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+.no{
+  text-decoration: none;
+  color: antiquewhite;
+}
+.no:hover{
+  color: aquamarine;
+}
+.nop{
+  text-decoration: none;
+  color: black;
+}
+img{
+  width: auto;
+}
+p{
+  font-size: 20px;
+}
